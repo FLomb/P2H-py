@@ -1,5 +1,8 @@
 # P2H-py
-Python code for the simulation of different P2H configurations.
+
+*Open-source Python code for the simulation of different P2H configurations*
+
+---
 
 ## Overview
 Power-to-Heat Python (P2H-py) is an open-source code for the simulation of different P2H configurations - including a heat pump (HP) and a thermal storage (TES) - and regulation logics of practical relevance. Those include: thermostatically-controlled regulation (TC), PV-friendly thermostatically-controlled regulation (PV-TC) and "smart" direct load control regulation (DLC). Further details about such regulation logics are given in the associated publication (see *Citing* below).
