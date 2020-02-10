@@ -1,0 +1,102 @@
+##
+# TECHNOLOGY DEFINITIONS
+##
+
+# Note: '-start' and '-end' is used in tutorial documentation only
+
+techs:
+
+    hp_dhw:
+        essentials:
+            name: 'HP DHW'
+            color: '#E33B78'
+            parent: conversion
+            primary_carrier_out: dhw
+            primary_carrier_in: electricity
+            carrier_out: dhw
+            carrier_in: electricity
+        constraints:
+            energy_eff: file=cop_dhw.csv  # @ 55C output
+            lifetime: 30
+            # consumption_based_cap: True
+        costs.monetary:
+            interest_rate: 0.10
+            energy_cap: 300 #€/kW  
+            om_prod: 0.04 
+            
+    ##
+    # Supply
+    ##
+    
+    # electricity grid
+    grid:
+        essentials:
+            name: 'Electricity grid'
+            color: '#9CBC90'
+            parent: supply
+            carrier_out: electricity
+        constraints:
+            resource: inf 
+            force_resource: False
+            energy_cap_equals: 100
+            lifetime: 80
+        costs:
+            monetary:
+                interest_rate: 0.10
+                om_prod: 0.4  # €/kWh
+
+    # pv rooftop
+    pv_rooftop:
+        essentials:
+            name: 'Photovoltaic power distributed'
+            color: '#F3F149'
+            parent: supply_plus
+            carrier_out: electricity
+        constraints:
+            resource: file=solar_resource.csv 
+            force_resource: True
+            resource_unit: energy_per_cap
+            energy_cap_equals: 2 # 2 kWp for each user
+            lifetime: 30
+        costs:
+            monetary:
+                interest_rate: 0.10
+                energy_cap: 2200  # €/kW
+                om_prod: 0.0411  # €/kWh
+                om_annual: 43 # €/kW/year
+        
+    ##
+    # Storage
+    ##
+    
+    # TES DHW
+    tes_dhw:
+        essentials:
+            name: 'Thermal storage DHW'
+            color: '#F0A0BD'
+            parent: storage
+            carrier: dhw
+        constraints:
+            energy_eff: 1   
+            storage_loss: 0.01  # Small loss over time assumed
+            storage_discharge_depth: 0.625
+            storage_initial: 0.625
+            lifetime: 40
+        costs:
+            monetary:
+                interest_rate: 0.10
+                energy_cap: 50  # €/kW
+                om_prod: 0.01
+    
+    ##
+    # Demand
+    ##
+    # demand-start
+    demand_dhw:
+        essentials:
+            name: 'DHW demand'
+            color: '#F507D8'
+            parent: demand
+            carrier: dhw
+    # demand-end
+

@@ -1,0 +1,404 @@
+##
+# LOCATIONS
+##
+
+locations:
+    # R1 - start
+    R1:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R1 - end
+    
+    # R2 - start
+    R2:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R2 - end
+    
+    # R3 - start
+    R3:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R3 - end
+    
+    # R4 - start
+    R4:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R4 - end
+    
+    # R5 - start
+    R5:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R5 - end
+    
+    # R6 - start
+    R6:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R6 - end
+    
+    # R7 - start
+    R7:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R7 - end
+    
+    # R8 - start
+    R8:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R8 - end
+    
+    # R9 - start
+    R9:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R9 - end
+    
+    # R10 - start
+    R10:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R10 - end
+    
+    # R11 - start
+    R11:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R11 - end
+    
+    # R12 - start
+    R12:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R12 - end
+    
+    # R13 - start
+    R13:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R13 - end
+    
+    # R14 - start
+    R14:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R14 - end
+    
+    # R15 - start
+    R15:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R15 - end
+    
+    # R16 - start
+    R16:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R16 - end
+    
+    # R17 - start
+    R17:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R17 - end
+    
+    # R18 - start
+    R18:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # R18 - end
+    
+    # SICI - start
+    SICI:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # SICI - end
+    
+    # SARD - start
+    SARD:
+        techs:
+            grid:
+            pv_rooftop:
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # SARD - end

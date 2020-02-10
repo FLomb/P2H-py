@@ -1,0 +1,27 @@
+##
+# LOCATIONS
+##
+
+locations:
+    # lombardia - start
+    dwelling:
+        techs:
+            grid:
+            pv_rooftop:
+                constraints:
+                    resource: file=solar_resource.csv  
+            hp_dhw:
+                constraints:
+                    energy_cap_equals: 2.2 # max thermal production, 2.2 kW per user
+            tes_dhw:
+                constraints:
+                    energy_cap_equals:  2.2 # kW
+                    storage_cap_equals: 3.7 # kWh
+                    # storage_dod: 3488
+                    # storage_cap_min: 1395
+                    # storage_cap_max: 2791
+            demand_dhw:
+                constraints:
+                    resource: file=demand_dhw.csv  
+    # lombardia - end
+    
